@@ -1,0 +1,50 @@
+/* src/styles/SocialProofSection.module.scss */
+.section {
+  padding: 80px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metrics {
+  display: flex;
+  gap: 32px;
+  margin: 32px 0;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.metricValue {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.metricLabel {
+  font-size: 14px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.card {
+  border: 1px solid #eee;
+  padding: 16px;
+}
+
+.author {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #555;
+}
